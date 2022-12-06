@@ -4,6 +4,5 @@ def read_file_to_list(filename):
     with open(filename, "r") as f:
         lines = f.readlines()
         for line in lines:
-            line = line.strip()
-            result.append(line)
+            result.append(line.strip())
     return result
